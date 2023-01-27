@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MundoApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="350" Width="600" Background="DarkOliveGreen">
     <Grid>
+        <TextBlock HorizontalAlignment="Center" Height="42" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="40" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="194" FontWeight="Normal"><Run Language="pt-br" Text="MUNDO"/></TextBlock>
+        <Button Content="Estado" Click="EstadoClick" HorizontalAlignment="Center" Height="45" Margin="0,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
+        <Button Content="Cidade" Click="CidadeClick" HorizontalAlignment="Left" Height="45" Margin="395,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
+        <Button Content="País" Click="PaisClick" HorizontalAlignment="Left" Height="45" Margin="48,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
+        <Button Content="Mapa" Click="MapaClick" HorizontalAlignment="Center" Height="45" Margin="0,226,0,0" VerticalAlignment="Top" Width="160" Background="white" />
 
     </Grid>
 </Window>
