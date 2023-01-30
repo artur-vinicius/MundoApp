@@ -24,5 +24,29 @@ namespace MundoApp
         {
             InitializeComponent();
         }
+
+        private void PaisClick(object sender, RoutedEventArgs e)
+        {
+            PaisWindow w = new PaisWindow();
+            w.ShowDialog();
+        }
+
+        private void EstadoClick(object sender, RoutedEventArgs e)
+        {
+            EstadoWindow w = new EstadoWindow();
+            w.ShowDialog();
+        }
+
+        private void CidadeClick(object sender, RoutedEventArgs e)
+        {
+            CidadeWindow w = new CidadeWindow();
+            w.ShowDialog();
+        }
+
+        private void MapaClick(object sender, RoutedEventArgs e)
+        {
+            MapaWindow w = new MapaWindow();
+            w.ShowDialog();
+        }
     }
 }
