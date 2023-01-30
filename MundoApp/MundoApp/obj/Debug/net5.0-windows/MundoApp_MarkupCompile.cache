@@ -1,5 +1,5 @@
 ﻿MundoApp
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\App.xaml
 5-596797162
 
-9-1324299331
+7-284269617
 193-1891726104
 CidadeWindow.xaml;EstadoWindow.xaml;MainWindow.xaml;MapaWindow.xaml;PaisWindow.xaml;
 

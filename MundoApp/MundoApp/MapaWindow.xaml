@@ -7,11 +7,10 @@
         mc:Ignorable="d"
         Title="PaisWindow" Height="350" Width="600" Background="DarkOliveGreen">
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Height="42" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="40" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="194" FontWeight="Normal"><Run Language="pt-br" Text="Estado"/></TextBlock>
-        <ListBox HorizontalAlignment="Left" Height="170" Margin="66,114,0,0" VerticalAlignment="Top" Width="192"/>
-        <Button Content="Listar" HorizontalAlignment="Left" Margin="491,257,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Adicionar" HorizontalAlignment="Left" Margin="491,101,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Atualizar" HorizontalAlignment="Left" Margin="491,153,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Remover" HorizontalAlignment="Left" Margin="491,205,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
+        <TextBlock HorizontalAlignment="Center" Height="42" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="40" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="194" FontWeight="Normal"><Run Language="pt-br" Text="Mapa"/></TextBlock>
+        <ListBox HorizontalAlignment="Left" Height="170" Margin="66,143,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="89,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock HorizontalAlignment="Left" Margin="113,55,0,0" Text="Estados dos países" Foreground="White" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="113,106,0,0" VerticalAlignment="Top" Width="99" Height="26"/>
     </Grid>
 </Window>

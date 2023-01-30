@@ -1,0 +1,9 @@
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp.csproj.AssemblyReference.cache
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\CidadeWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\EstadoWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\PaisWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp_MarkupCompile.cache
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp_MarkupCompile.lref
