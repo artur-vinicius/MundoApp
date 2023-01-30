@@ -12,5 +12,9 @@
         <TextBox HorizontalAlignment="Left" Margin="89,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
         <TextBlock HorizontalAlignment="Left" Margin="113,55,0,0" Text="Estados dos países" Foreground="White" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button Content="Listar" HorizontalAlignment="Left" Margin="113,106,0,0" VerticalAlignment="Top" Width="99" Height="26"/>
+        <ListBox HorizontalAlignment="Left" Height="170" Margin="360,143,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox HorizontalAlignment="Left" Margin="383,78,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="146"/>
+        <TextBlock HorizontalAlignment="Left" Margin="402,55,0,0" Text="Cidades dos Estados" Foreground="White" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="407,106,0,0" VerticalAlignment="Top" Width="99" Height="26"/>
     </Grid>
 </Window>
