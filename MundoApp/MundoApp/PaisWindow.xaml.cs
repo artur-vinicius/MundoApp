@@ -23,5 +23,25 @@ namespace MundoApp
         {
             InitializeComponent();
         }
+
+        private void AdicionarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RemoverClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
