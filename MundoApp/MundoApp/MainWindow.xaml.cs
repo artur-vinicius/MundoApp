@@ -43,9 +43,15 @@ namespace MundoApp
             w.ShowDialog();
         }
 
-        private void MapaClick(object sender, RoutedEventArgs e)
+        private void MapaEstadosClick(object sender, RoutedEventArgs e)
         {
-            MapaWindow w = new MapaWindow();
+            MapaEstadoWindow w = new MapaEstadoWindow();
+            w.ShowDialog();
+        }
+
+        private void MapaPaisClick(object sender, RoutedEventArgs e)
+        {
+            MapaPaisWindow w = new MapaPaisWindow();
             w.ShowDialog();
         }
     }

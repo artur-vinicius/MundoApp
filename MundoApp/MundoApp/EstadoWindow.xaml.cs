@@ -23,5 +23,60 @@ namespace MundoApp
         {
             InitializeComponent();
         }
+        private void InserirClick(object sender, RoutedEventArgs e)
+        {
+            Estado p = new Estado();
+            p.Id = int.Parse(txtId.Text);
+            p.Nome = txtNome.Text;
+            p.Populacao = int.Parse(txtPop.Text);
+            p.IdPais = int.Parse(txtIdPais.Text);
+
+            NEstado.Inserir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            listEstado.ItemsSource = null;
+            listEstado.ItemsSource = NEstado.Listar();
+        }
+
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
+            Estado p = new Estado();
+            p.Id = int.Parse(txtId.Text);
+            p.Nome = txtNome.Text;
+            p.Populacao = int.Parse(txtPop.Text);
+            p.IdPais = int.Parse(txtIdPais.Text);
+
+            NEstado.Atualizar(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+            Estado p = new Estado();
+            p.Id = int.Parse(txtId.Text);
+
+            NEstado.Excluir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void listEstado_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (listEstado.SelectedItem != null)
+            {
+                Estado obj = (Estado)listEstado.SelectedItem;
+
+                txtId.Text = obj.Id.ToString();
+                txtNome.Text = obj.Nome;
+                txtPop.Text = obj.Populacao.ToString();
+                txtIdPais.Text = obj.IdPais.ToString();
+            }
+        }
     }
 }

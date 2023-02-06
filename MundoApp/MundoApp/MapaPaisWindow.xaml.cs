@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace MundoApp
 {
     /// <summary>
-    /// Lógica interna para MapaWindow.xaml
+    /// Lógica interna para MapaPaisWindow.xaml
     /// </summary>
-    public partial class MapaWindow : Window
+    public partial class MapaPaisWindow : Window
     {
-        public MapaWindow()
+        public MapaPaisWindow()
         {
             InitializeComponent();
         }

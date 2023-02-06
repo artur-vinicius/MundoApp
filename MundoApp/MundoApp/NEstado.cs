@@ -37,6 +37,7 @@ namespace MundoApp
                 {
                     obj.Nome = e.Nome;
                     obj.Populacao = e.Populacao;
+                    obj.IdPais = e.IdPais;
                 }
             Salvar();
         }

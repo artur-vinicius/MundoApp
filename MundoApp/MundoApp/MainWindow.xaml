@@ -11,7 +11,8 @@
         <Button Content="Estado" Click="EstadoClick" HorizontalAlignment="Center" Height="45" Margin="0,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
         <Button Content="Cidade" Click="CidadeClick" HorizontalAlignment="Left" Height="45" Margin="385,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
         <Button Content="País" Click="PaisClick" HorizontalAlignment="Left" Height="45" Margin="48,108,0,0" VerticalAlignment="Top" Width="160" Background="white" />
-        <Button Content="Mapa" Click="MapaClick" HorizontalAlignment="Center" Height="45" Margin="0,226,0,0" VerticalAlignment="Top" Width="160" Background="white" />
+        <Button Content="Mapear Estados" Click="MapaEstadosClick" HorizontalAlignment="Left" Height="45" Margin="305,226,0,0" VerticalAlignment="Top" Width="160" Background="white" />
+        <Button Content="Mapear Países" Click="MapaPaisClick" HorizontalAlignment="Left" Height="45" Margin="128,226,0,0" VerticalAlignment="Top" Width="160" Background="white" />
 
     </Grid>
 </Window>

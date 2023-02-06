@@ -8,17 +8,19 @@
         Title="PaisWindow" Height="350" Width="600" Background="DarkOliveGreen">
     <Grid>
         <TextBlock HorizontalAlignment="Center" Height="42" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" TextAlignment="Center" FontSize="40" FontFamily="Copperplate Gothic Bold" Foreground="White" Width="194" FontWeight="Normal"><Run Language="pt-br" Text="Estado"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="37,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="24"/>
-        <TextBox HorizontalAlignment="Left" Margin="113,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="24"/>
+        <TextBox Name="txtId" HorizontalAlignment="Left" Margin="37,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="24"/>
+        <TextBox Name="txtNome" HorizontalAlignment="Left" Margin="113,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Height="24"/>
         <TextBlock HorizontalAlignment="Left" Margin="37,75,0,0" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px"/>
         <TextBlock HorizontalAlignment="Left" Margin="37,75,0,0" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px"/>
         <TextBlock HorizontalAlignment="Left" Margin="113,75,0,0" Text="ESTADO" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px" Width="87"/>
-        <ListBox HorizontalAlignment="Left" Height="129" Margin="37,153,0,0" VerticalAlignment="Top" Width="409"/>
-        <Button Content="Listar" HorizontalAlignment="Left" Margin="491,257,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Adicionar" HorizontalAlignment="Left" Margin="491,101,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Atualizar" HorizontalAlignment="Left" Margin="491,153,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <Button Content="Remover" HorizontalAlignment="Left" Margin="491,205,0,0" VerticalAlignment="Top" Height="25" Width="63" Background="White"/>
-        <TextBlock HorizontalAlignment="Left" Margin="300,75,0,0" Text="PAÍS" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px" Width="86"/>
-        <ComboBox HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="146" Height="24"/>
+        <ListBox Name="listEstado" HorizontalAlignment="Left" Height="129" Margin="37,153,0,0" VerticalAlignment="Top" Width="409"/>
+        <Button Content="Listar" HorizontalAlignment="Left" Margin="496,298,0,0" VerticalAlignment="Top" Height="24" Width="52" Background="White" Click="ListarClick"/>
+        <Button Content="Adicionar" HorizontalAlignment="Left" Margin="492,153,0,0" VerticalAlignment="Top" Height="23" Width="60" Background="White" Click="InserirClick"/>
+        <Button Content="Atualizar" HorizontalAlignment="Left" Margin="496,201,0,0" VerticalAlignment="Top" Height="24" Width="52" Background="White" Click="AtualizarClick"/>
+        <Button Content="Remover" HorizontalAlignment="Left" Margin="496,250,0,0" VerticalAlignment="Top" Height="23" Width="52" Background="White" Click="ExcluirClick"/>
+        <TextBlock HorizontalAlignment="Left" Margin="300,75,0,0" Text="POPULAÇÃO" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px" Width="120"/>
+        <TextBox x:Name="txtPop" HorizontalAlignment="Left" Margin="300,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="24"/>
+        <TextBox x:Name="txtIdPais" HorizontalAlignment="Left" Margin="462,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="43" Height="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="462,73,0,0" Text="PAÍS" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20px" Width="86"/>
     </Grid>
 </Window>

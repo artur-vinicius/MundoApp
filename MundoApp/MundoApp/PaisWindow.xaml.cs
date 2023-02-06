@@ -24,24 +24,59 @@ namespace MundoApp
             InitializeComponent();
         }
 
-        private void AdicionarClick(object sender, RoutedEventArgs e)
+        private void InserirClick(object sender, RoutedEventArgs e)
         {
+            Pais p = new Pais();
+            p.Id = int.Parse(txtId.Text);
+            p.Nome = txtPais.Text;
+            p.Populacao = int.Parse(txtPop.Text);
 
-        }
+            NPais.Inserir(p);
 
-        private void AtualizarClick(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void RemoverClick(object sender, RoutedEventArgs e)
-        {
+            ListarClick(sender, e);
 
         }
 
         private void ListarClick(object sender, RoutedEventArgs e)
         {
+            ListPais.ItemsSource = null;
+            ListPais.ItemsSource = NPais.Listar();
+        }
 
+        private void AtualizarClick(object sender, RoutedEventArgs e)
+        {
+
+            Pais p = new Pais();
+            p.Id = int.Parse(txtId.Text);
+            p.Nome = txtPais.Text;
+            p.Populacao = int.Parse(txtPop.Text);
+
+            NPais.Atualizar(p);
+
+            ListarClick(sender, e);
+
+        }
+
+        private void ExcluirClick(object sender, RoutedEventArgs e)
+        {
+            Pais p = new Pais();
+            p.Id = int.Parse(txtId.Text);
+
+            NPais.Excluir(p);
+
+            ListarClick(sender, e);
+        }
+
+        private void ListPais_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ListPais.SelectedItem != null)
+            {
+                Pais obj = (Pais)ListPais.SelectedItem;
+
+                txtId.Text = obj.Id.ToString();
+                txtPais.Text = obj.Nome;
+                txtPop.Text = obj.Populacao.ToString();
+            }
         }
     }
 }
