@@ -6,4 +6,10 @@
     <Populacao>2</Populacao>
     <IdEstado>2</IdEstado>
   </Cidade>
+  <Cidade>
+    <Id>1</Id>
+    <Nome>Natal</Nome>
+    <Populacao>54</Populacao>
+    <IdEstado>1</IdEstado>
+  </Cidade>
 </ArrayOfCidade>

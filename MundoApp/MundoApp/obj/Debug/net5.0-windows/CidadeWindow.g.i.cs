@@ -93,7 +93,7 @@ namespace MundoApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MundoApp;V1.0.0.0;component/cidadewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MundoApp;component/cidadewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CidadeWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

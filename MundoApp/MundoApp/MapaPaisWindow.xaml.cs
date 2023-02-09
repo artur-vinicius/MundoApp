@@ -21,7 +21,19 @@ namespace MundoApp
     {
         public MapaPaisWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); listPais.ItemsSource = NPais.Listar();
+        }
+
+        private void ListarClick(object sender, RoutedEventArgs e)
+        {
+            if (listPais.SelectedItem != null)
+            {
+                Pais p = (Pais)listPais.SelectedItem;
+                listEstados.ItemsSource = null;
+                listEstados.ItemsSource = NEstado.Listar(p);
+            }
+            else
+                MessageBox.Show("Selecione um país");
         }
     }
 }

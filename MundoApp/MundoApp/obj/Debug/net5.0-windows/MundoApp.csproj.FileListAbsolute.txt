@@ -2,7 +2,6 @@ C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-wi
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\CidadeWindow.g.cs
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\EstadoWindow.g.cs
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MainWindow.g.cs
-C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaWindow.g.cs
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\PaisWindow.g.cs
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\App.g.cs
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp_MarkupCompile.cache
@@ -17,7 +16,6 @@ C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\bin\Debug\net5.0-wi
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\CidadeWindow.baml
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\EstadoWindow.baml
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MainWindow.baml
-C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaWindow.baml
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\PaisWindow.baml
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp.g.resources
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp.GeneratedMSBuildEditorConfig.editorconfig
@@ -28,3 +26,7 @@ C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-wi
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\ref\MundoApp.dll
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp.pdb
 C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MundoApp.genruntimeconfig.cache
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaEstadoWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaPaisWindow.g.cs
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaEstadoWindow.baml
+C:\Users\20211011110013\Documents\MundoApp\MundoApp\MundoApp\obj\Debug\net5.0-windows\MapaPaisWindow.baml

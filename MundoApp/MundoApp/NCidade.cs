@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace MundoApp
             cidades.Add(c);
             Salvar();
         }
-        public static List<Cidade> Listar()
+        public static List<Cidade> Listar(Estado c)
         { // R - Read
             Abrir();
             return cidades;
@@ -45,6 +46,8 @@ namespace MundoApp
             cidades.Remove(Listar(c.Id));
             Salvar();
         }
+
+
         public static void Abrir()
         {
             StreamReader f = null;
@@ -66,11 +69,6 @@ namespace MundoApp
             StreamWriter f = new StreamWriter("./aluno.xml", false);
             xml.Serialize(f, cidades);
             f.Close();
-        }
-        public static void Matricular(Cidade c, Pais p)
-        {
-            c.IdEstado = p.Id;
-            Atualizar(c);
         }
         public static List<Cidade> Listar(Pais p)
         {

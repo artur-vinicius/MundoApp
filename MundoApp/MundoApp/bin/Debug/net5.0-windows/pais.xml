@@ -5,4 +5,9 @@
     <Nome>Brasil</Nome>
     <Populacao>105</Populacao>
   </Pais>
+  <Pais>
+    <Id>2</Id>
+    <Nome>Alemanha</Nome>
+    <Populacao>2135</Populacao>
+  </Pais>
 </ArrayOfPais>
