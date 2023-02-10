@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfEstado xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Estado>
+    <Id>1</Id>
+    <Nome>rn</Nome>
+    <Populacao>123</Populacao>
+    <IdPais>1</IdPais>
+  </Estado>
+  <Estado>
+    <Id>2</Id>
+    <Nome>bahia</Nome>
+    <Populacao>123</Populacao>
+    <IdPais>1</IdPais>
+  </Estado>
+  <Estado>
     <Id>3</Id>
-    <Nome>berlim</Nome>
-    <Populacao>23</Populacao>
+    <Nome>baviera</Nome>
+    <Populacao>123</Populacao>
     <IdPais>2</IdPais>
   </Estado>
   <Estado>
     <Id>4</Id>
-    <Nome>piaui</Nome>
-    <Populacao>23</Populacao>
-    <IdPais>1</IdPais>
+    <Nome>renania</Nome>
+    <Populacao>123</Populacao>
+    <IdPais>2</IdPais>
   </Estado>
 </ArrayOfEstado>

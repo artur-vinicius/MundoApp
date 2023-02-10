@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCidade xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Cidade>
-    <Id>1</Id>
-    <Nome>nata</Nome>
-    <Populacao>2</Populacao>
-    <IdEstado>2</IdEstado>
+    <Id>2</Id>
+    <Nome>macaiba</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>1</IdEstado>
   </Cidade>
   <Cidade>
     <Id>1</Id>
-    <Nome>Natal</Nome>
-    <Populacao>54</Populacao>
+    <Nome>natal</Nome>
+    <Populacao>123</Populacao>
     <IdEstado>1</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>3</Id>
+    <Nome>salvador</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>2</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>4</Id>
+    <Nome>almadina</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>2</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>5</Id>
+    <Nome>bamberg</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>3</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>6</Id>
+    <Nome>munique</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>3</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>7</Id>
+    <Nome>mainz</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>4</IdEstado>
+  </Cidade>
+  <Cidade>
+    <Id>8</Id>
+    <Nome>spira</Nome>
+    <Populacao>123</Populacao>
+    <IdEstado>4</IdEstado>
   </Cidade>
 </ArrayOfCidade>

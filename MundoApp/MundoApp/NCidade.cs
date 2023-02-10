@@ -19,8 +19,9 @@ namespace MundoApp
             cidades.Add(c);
             Salvar();
         }
-        public static List<Cidade> Listar(Estado c)
-        { // R - Read
+        
+        public static List<Cidade> Listar()
+        {
             Abrir();
             return cidades;
         }
@@ -70,7 +71,7 @@ namespace MundoApp
             xml.Serialize(f, cidades);
             f.Close();
         }
-        public static List<Cidade> Listar(Pais p)
+        public static List<Cidade> Listar(Estado p)
         {
             Abrir(); // Abre c lista com todos os cidades
             List<Cidade> mapa = new List<Cidade>(); // Lista de cidades da turma c

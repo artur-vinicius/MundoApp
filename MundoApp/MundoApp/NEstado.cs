@@ -87,7 +87,7 @@ namespace MundoApp
 
             List<Estado> mapa = new List<Estado>();
             foreach (Estado obj in estados)
-                if (obj.Id == p.Id) mapa.Add(obj);
+                if (obj.IdPais == p.Id) mapa.Add(obj);
             return mapa;
         }
     }
